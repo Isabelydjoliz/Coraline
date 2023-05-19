@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: rgb(9, 41, 114);
 }
@@ -10,6 +15,7 @@ h1 {
 p{
     padding-top: 1%;
     padding-bottom: 1%;
+    text-justify: auto;
 
 }
 
@@ -21,13 +27,13 @@ header {
 
 .logo {
     text-align: center;
-    color: rgb(179, 203, 224);
+    color: rgb(6, 45, 79);
     font-size: 1.5em;
 }
 
 nav {
     text-align: center;
-    color: rgb(179, 203, 224);
+    color: rgb(6, 45, 79);
     font-size: 1.5em;
 }
 
@@ -38,7 +44,7 @@ nav {
 }
 
 .container {
-    background-color: rgb(148, 187, 220);
+    background-color: rgb(6, 45, 79);
     width: 80%;
     margin: auto;
 }
@@ -46,4 +52,8 @@ nav {
 footer {
     background-color: aliceblue;
     width: 100%;
+}
+
+.img1 {
+    float: left;
 }
