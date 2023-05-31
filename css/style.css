@@ -73,6 +73,20 @@ a:hover {
     color: rgb(43, 17, 85);
     }
 
+
+.img1 {
+        padding-left: 2%;
+        padding-right: 2%; 
+      }
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }      
+      
+
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 600px) {
     .linha {
