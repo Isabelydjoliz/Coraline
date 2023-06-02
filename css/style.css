@@ -98,4 +98,29 @@ ul {
     }
   }
 
+.videocard {
+    background-image: linear-gradient(to right, #0d043f , #1c074b);
+    width: 90%;
+    border-style: double;
+    border-color: #16074d;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(2, 2, 103, 0.824);
+    transition: 0.3s;   
+}
+
+.textocard{
+    background-image: linear-gradient(to right, #1010eb , #16169b);
+    width: 90%;
+    box-shadow: 15px 15px 15px 2px rgba(32, 74, 227, 0.623); 
+    transition: 0.3s;   
+    border-style: double;
+    border-color: #4337ed;
+    border-width: 5px;
+}
+
+h1.textocard {
+    color: #0d043f;
+
+}
+
 
