@@ -137,3 +137,12 @@ table {
     background-color: #19169b;
   }
 
+  .listasmeio li{
+    line-height: 1.5;
+    font-size:1.3rem ;
+}
+
+.listasmeio{
+   list-style-image: url('../img/gato.png');
+}
+
