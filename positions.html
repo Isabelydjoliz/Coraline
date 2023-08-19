@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions </title>
+    <style>
+        body{
+            background-color: rgb(7, 29, 77);
+        }
+        h1{
+            background-color: rgb(33, 76, 150);
+        }
+        p{
+            background-color: cornflowerblue;
+        }
+        /* div{
+            width: 100px;
+            height: 50px;
+            background-color:cornflowerblue;
+            margin: auto;            
+        } */
+        .botao{
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        .fixo{
+            position: fixed;
+            width: 100%;
+            z-index: 1030;
+            top:0;
+        }
+
+        .cabe{
+            width: 100%;
+            position: relative;
+            top: 60px;
+        }      
+
+        .container{
+            width: 100%;
+            height: 770px;
+            top:60px;
+            position: relative;
+        }     
+
+        img { 
+            width: 100%;
+            height: auto;
+        }
+
+        .topodir{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(55, 42, 156);
+            right: 16px;
+            top: 50px;
+
+        }
+
+        .topoesq{
+            position: absolute;
+            width: 20%;
+            background-color: blueviolet;
+            left: 16px;
+            top: 50px;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(174, 0, 255);
+            bottom: 10px;
+            left: 16px;
+
+
+        }
+        .baixodir{
+            position: absolute;
+            width: 20%;
+            background-color:cornflowerblue;
+            bottom: 10px;
+            right: 16px;
+        }
+
+        .centro {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            color: antiquewhite;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: darkblue; font-weight: bold;" >Via Láctea</h1>
+        <div class="cabe">
+            <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">A Via Láctea está entre as centenas de bilhões de galáxias do Universo e onde está situado o nosso Sistema Solar.</p>
+            <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">Considerando a estimativa da idade do Universo, a Via Láctea tem aproximadamente 14 bilhões de anos terrestres.</p>
+            <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">Os cientistas acreditam que a Via Láctea e outras galáxias grandes se formaram ao longo de bilhões de anos a partir das interações entre galáxias menores e, em particular, a captura gradual de muitas estrelas de galáxias anãs próximas (galáxias pequenas com centenas ou milhares de vezes menos estrelas do que a Via Láctea).</p>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>Nossa Galáxia</h1>
+            <img src="img/vialactea.jpeg" alt="Via Láctea" width="1000" height="300">
+            <div class="topodir">Estimativa de mais de 100 milhões de buracos negros errantes</div>
+            <div class="topoesq">Cerca de 160 bilhões de planetas</div>
+            <div class="baixoesq">Mais de 3.200 outras estrelas com planetas em suas órbitas</div>
+            <div class="baixodir">200 a 400 bilhões de estrelas</div>
+            <div class="centro">Via Láctea</div>
+        </div>
+
+    </div>
+  
+    <footer>
+        <p>Desenvolvido por: Isabely D'joliz 
+    </footer>
+      
+   
+</body>
+</html>
