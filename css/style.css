@@ -115,7 +115,8 @@ ul {
     border-color: #16074d;
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgba(2, 2, 103, 0.824);
-    transition: 0.3s;   
+    transition: 0.3s; 
+    margin-left: 5%;  
 }
 
 .textocard{
@@ -127,6 +128,7 @@ ul {
     border-color: #4337ed;
     border-width: 5px;
     font-size: 0.5em;
+    margin-left: 5%;
 }
 
 h1.textocard {
@@ -187,6 +189,7 @@ h1{
     box-shadow: 15px 15px 15px 2px rgba(2, 2, 103, 0.824);
     transition: 0.3s;  
     background-color: #020014; 
+    margin-left: 5%;
 }
 
 .imgcoralinepersonagem {
@@ -225,5 +228,22 @@ h1{
     height: auto;
 }
 
+.imgsrbobinskypersonagem {
+    width: 68.9%;
+    height: auto;
+}
 
+.imgvizinhaspersonagem{
+    width: 79%;
+    height: auto;
+}
 
+.imggatopoersonagem {
+    width: 39%;
+    height: auto;
+}
+
+.imgcriancaspersonagem {
+    width: 60%;
+    height: auto;
+}
