@@ -33,7 +33,7 @@
             top:0;
         }
 
-        .cabe{
+        .textos{
             width: 100%;
             position: relative;
             top: 60px;
@@ -51,7 +51,7 @@
             height: auto;
         }
 
-        .topodir{
+        .cimadireita{
             position: absolute;
             width: 20%;
             background-color: rgb(55, 42, 156);
@@ -60,7 +60,7 @@
 
         }
 
-        .topoesq{
+        .cimaesquerda{
             position: absolute;
             width: 20%;
             background-color: blueviolet;
@@ -69,7 +69,7 @@
 
         }
 
-        .baixoesq{
+        .abaixoesquerda{
             position: absolute;
             width: 20%;
             background-color: rgb(174, 0, 255);
@@ -78,7 +78,7 @@
 
 
         }
-        .baixodir{
+        .abaixodireita{
             position: absolute;
             width: 20%;
             background-color:cornflowerblue;
@@ -86,7 +86,7 @@
             right: 16px;
         }
 
-        .centro {
+        .meio {
             position: absolute;
             top: 50%;
             width: 100%;
@@ -94,15 +94,25 @@
             font-size: 18px;
             color: antiquewhite;
         }
-
+        
+        footer {
+            padding-top: 50px;
+            width: 100%;
+            background-color: rgb(18, 18, 95);   
+        }
        
+        .footer.fixed {
+            position: fixed;
+             bottom: 0;
+        }
+        
 
     </style>
 </head>
 <body>
     <header>
         <h1 class="fixo" style="text-align: center;color: darkblue; font-weight: bold;" >Via Láctea</h1>
-        <div class="cabe">
+        <div class="textos">
             <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">A Via Láctea está entre as centenas de bilhões de galáxias do Universo e onde está situado o nosso Sistema Solar.</p>
             <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">Considerando a estimativa da idade do Universo, a Via Láctea tem aproximadamente 14 bilhões de anos terrestres.</p>
             <p style="border-color: blue; border-style: groove; color: rgb(46, 13, 78);">Os cientistas acreditam que a Via Láctea e outras galáxias grandes se formaram ao longo de bilhões de anos a partir das interações entre galáxias menores e, em particular, a captura gradual de muitas estrelas de galáxias anãs próximas (galáxias pequenas com centenas ou milhares de vezes menos estrelas do que a Via Láctea).</p>
@@ -112,18 +122,19 @@
         <div class="container">
             <h1>Nossa Galáxia</h1>
             <img src="img/vialactea.jpeg" alt="Via Láctea" width="1000" height="300">
-            <div class="topodir">Estimativa de mais de 100 milhões de buracos negros errantes</div>
-            <div class="topoesq">Cerca de 160 bilhões de planetas</div>
-            <div class="baixoesq">Mais de 3.200 outras estrelas com planetas em suas órbitas</div>
-            <div class="baixodir">200 a 400 bilhões de estrelas</div>
-            <div class="centro">Via Láctea</div>
+            <div class="cimadireita">Estimativa de mais de 100 milhões de buracos negros errantes</div>
+            <div class="cimaesquerda">Cerca de 160 bilhões de planetas</div>
+            <div class="abaixoesquerda">Mais de 3.200 outras estrelas com planetas em suas órbitas</div>
+            <div class="abaixodireita">200 a 400 bilhões de estrelas</div>
+            <div class="meio">Via Láctea</div>
         </div>
 
     </div>
-  
-    <footer>
-        <p>Desenvolvido por: Isabely D'joliz 
-    </footer>
+    <div class="footer">
+      <footer>
+          <p>Desenvolvido por: Isabely D'joliz</p>
+      </footer>
+    </div>
       
    
 </body>
