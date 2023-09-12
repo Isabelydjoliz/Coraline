@@ -185,6 +185,14 @@ h1{
     color: #0d043f;
 }
 
+.iconeinstagram {
+    width: 7%;
+}
+
+.iconegithub{
+    width: 7%;
+}
+
 .personagenscard{
     width: 90%;
     border-style: double;
@@ -242,35 +250,99 @@ h1{
     height: auto;
 }
 
-.imggatopoersonagem {
-    width: 39%;
+.imggatopersonagem {
+    width: 71%;
     height: auto;
 }
 
 .imgcriancaspersonagem {
-    width: 60%;
+    width: 35%;
     height: auto;
 }
 
-.formulario{
-    background-color: #592A0E;
-    
- }
- .organizar{
-    background-color: #8d7283;
-    text-align: center;
- }
- .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 8px;
 }
 
-.card {
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 400px;
-    transition: all 0.3s ease-out;
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 8px;
+}
+
+.contato {
+    background-color: #5a4ec5;
+    padding: 3%;
+    border-radius: 9px;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+input[type=text],
+select,
+textarea,
+input[type=cel],
+input[type=email] {
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #5a4ec5;
+    border-radius: 25px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #5a4ec5;
+    color: rgb(5, 11, 89);
+    padding: 10px 20px;
+    border: 2px solid #5a4ec5;
+    border-radius: 15px;
+    cursor: default;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(5, 11, 89);
+    color: #000000;
+    font-weight: bolder;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+}
+
+.enviar {
+    margin-top: 2%;
+}
+
+@media screen and (max-width:800px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .contato{
+        flex-direction: column;
+    }
+
+    .banner {
+        margin-top: 37%;
+    }
+
+    .logo {
+        padding-top: 1%;
+        text-align: center;
+        width: 50%;
+    }
 }
