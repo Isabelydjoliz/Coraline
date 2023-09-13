@@ -32,11 +32,6 @@ header {
     background-color: rgb(60, 29, 181);
 }
 
-.logo {
-    text-align: center;
-    color: rgb(47, 22, 146);
-    font-size: 1.5em;
-}
 
 nav {
     text-align: center;
@@ -325,24 +320,6 @@ label {
     margin-top: 2%;
 }
 
-@media screen and (max-width:800px) {
-
-    .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .contato{
-        flex-direction: column;
-    }
-
-    .banner {
-        margin-top: 37%;
-    }
-
-    .logo {
-        padding-top: 1%;
-        text-align: center;
-        width: 50%;
-    }
+.logo {
+    text-align: justify;
 }
