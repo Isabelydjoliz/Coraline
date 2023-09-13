@@ -321,5 +321,6 @@ label {
 }
 
 .logo {
-    text-align: justify;
+    text-align: left;
+    padding-top: 1.3em;
 }
