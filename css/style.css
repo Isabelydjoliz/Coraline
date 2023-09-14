@@ -6,13 +6,13 @@ html{
 
 
 body {
-    background-color:rgb(88, 65, 180);
+    background-color:#021148;
     width: 100%;
     height: auto;
 }
 
 h1 {
-    color:rgb(60, 29, 181);
+    color:#4866BC;
     text-align: center;
     font-family: 'Pricedown';
     font-size: 2.8em;
@@ -23,12 +23,12 @@ h1 {
 }
 
 h1.titulo {
-    color:rgb(60, 29, 181);
+    color:#4866BC;
     text-align: center;
     font-family: 'Allura', sans-serif;
     font-size: 3.8em;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     line-height: 2;
     font-weight: bold;  
 }
@@ -40,18 +40,18 @@ h1.titulo {
 
 header {
     width: 100%;
-    background-color: rgb(60, 29, 181);
+    background-color:#593484;
 }
 
 
 nav {
     text-align: center;
-    color: rgb(60, 29, 181);
+    color: #021148;
     font-size: 1.5em;
 }
 
 .container_banner {
-    background-color: rgb(38, 18, 119);
+    background-color: #021148;
     width: 100%;
     height: auto;
     padding-left: 0%;
@@ -59,10 +59,20 @@ nav {
 }
 
 .container_meio {
-    background-color: rgb(27, 17, 66);
+    background-color: #021148;
     width: 100%;
-    height: auto;
+}
 
+.container_personagens {
+    background-color: #021148;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.container_tabela {
+    background-color: #021148;
+    width: 100%;
 }
 
 footer {
@@ -119,20 +129,18 @@ ul {
   }
 
 .videocard {
-    background-image: linear-gradient(to right, #0d043f , #1c074b);
+    background-image: linear-gradient(to right, #000000 , #000000);
     width: 90%;
-    border-style: double;
-    border-color: #16074d;
+    border-style:double;
+    border-color: #4337ed;;
     border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgba(2, 2, 103, 0.824);
     transition: 0.3s; 
     margin-left: 5%;  
 }
 
 .textocard{
-    background-image: linear-gradient(to right, #1010eb , #1010eb);
+    background-image: linear-gradient(to right, #050511 , #021148);
     width: 90%;
-    box-shadow: 15px 15px 15px 2px rgba(32, 74, 227, 0.623); 
     transition: 0.3s;   
     border-style: double;
     border-color: #4337ed;
@@ -142,7 +150,7 @@ ul {
 }
 
 h1.textocard {
-    color: #0d043f;
+    color: #3780ed;;
     font-size: 0.5em;
 
 
@@ -192,12 +200,9 @@ p {
     text-align: justify;
     margin-left: 2%;
     margin-right: 2%;
-    color: #020014;
+    color: #4866BC;
 }
 
-h1{
-    color: #0d043f;
-}
 
 .iconeinstagram {
     width: 7%;
@@ -210,11 +215,10 @@ h1{
 .personagenscard{
     width: 90%;
     border-style: double;
-    border-color: #16074d;
+    border-color: #4337ed;
     border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgba(2, 2, 103, 0.824);
     transition: 0.3s;  
-    background-color: #020014; 
+    background-color: #01040c; 
     margin-left: 5%;
 }
 
@@ -276,16 +280,24 @@ h1{
 .coralineepaiimg, .coralineportaimg{
     width: 75%;
     height: auto;
+    border-style: dotted;
+    border-color: #4866BC;
 }
 
 .producaoimg1 {
     width: 67%;
     height: auto;
+    margin-left: 10%;
+    border-style: dotted;
+    border-color: #4866BC;
 }
 
 .producaoimg2 {
     width: 67%;
     height: auto;
+    margin-right: 10%;
+    border-style: dotted;
+    border-color: #4866BC;
 }
 
 .col-25 {
@@ -369,8 +381,10 @@ label {
 }
 
 .menuitem {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shadows Into Light Two', sans-serif;
     font-size: 1.3em;
+    font-weight: bold;
+    color: #000000;
 }
 
 @media screen and (min-width: 601px) {
@@ -405,3 +419,30 @@ label {
 
     
 }
+
+.p1 {
+    padding-bottom: 0.3em;
+}
+
+.p2 {
+    padding-top: 0.3em;
+}
+
+.p3 {
+    padding-bottom: 0.3em;
+    padding-top: 1.5em;
+}
+
+.p4 {
+    padding-top: 0.3em;
+}
+
+.p5 {
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+.p6 {
+    padding-top: 0.3em;
+}
+
