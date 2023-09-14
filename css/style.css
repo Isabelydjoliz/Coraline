@@ -153,19 +153,25 @@ table {
     border-collapse: collapse;
     width: 100%;
     padding: 1px;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #19169b;
-  }
+}
 
-  .listasmeio li{
+.tabela {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}  
+
+.listasmeio li{
     line-height: 1.5;
     font-size:1.3rem ;
 }
@@ -269,6 +275,16 @@ h1{
 }
 .coralineepaiimg, .coralineportaimg{
     width: 75%;
+    height: auto;
+}
+
+.producaoimg1 {
+    width: 67%;
+    height: auto;
+}
+
+.producaoimg2 {
+    width: 67%;
     height: auto;
 }
 
