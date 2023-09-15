@@ -96,15 +96,18 @@
         }
         
         footer {
-            padding-top: 50px;
             width: 100%;
-            background-color: rgb(18, 18, 95);   
+            background-color: rgb(18, 18, 95);  
         }
        
-        .footer.fixed {
+        .footer_fixed {
             position: fixed;
-             bottom: 0;
-        }
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1034;
+
+}
         
 
     </style>
@@ -130,8 +133,8 @@
         </div>
 
     </div>
-    <div class="footer">
-      <footer>
+    <div class="footer_fixed">
+      <footer class="footer_fixed">
           <p>Desenvolvido por: Isabely D'joliz</p>
       </footer>
     </div>

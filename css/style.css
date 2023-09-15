@@ -146,35 +146,35 @@ ul {
     background-image: linear-gradient(to right, #050511 , #021148);
     width: 90%;
     transition: 0.3s;   
-    border-style: double;
+    border-style: ridge;
     border-color: #4337ed;
     border-width: 5px;
-    font-size: 0.5em;
+    font-size: 1.5em;
     margin-left: 5%;
+    font-family: 'Shadows Into Light Two', sans-serif;
 }
 
 h1.textocard {
     color: #3780ed;;
-    font-size: 0.5em;
-
-
+    font-size: 1.5em;
 }
 
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     padding: 1px;
+    font-family: 'Mooli', sans-serif;
 }
   
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     text-align: left;
     padding: 8px;
+    font-family: 'Mooli', sans-serif;
 }
   
-tr:nth-child(even) {
-    background-color: #19169b;
+tr {
+    background-color: #5a4ec5;
 }
 
 .tabela {
@@ -205,6 +205,7 @@ p {
     margin-left: 2%;
     margin-right: 2%;
     color: #4866BC;
+    font-family: 'Mooli', sans-serif;
 }
 
 
@@ -451,7 +452,7 @@ label {
     }
 
     .producaoimg1 {
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .producaoimg2 {
@@ -462,6 +463,7 @@ label {
         width: 100%;
         margin-top: 0;
     }
+
 }
 
 .p1 {
@@ -490,3 +492,39 @@ label {
     padding-top: 0.3em;
 }
 
+.passos {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.stopmotionimg1 {
+    width: 60%;
+    height: auto;
+}
+
+.stopmotionimg2 {
+    width: 60%;
+    height: auto;
+}
+
+.filmesstopmotion {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+.footerp {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #000000;
+}
+
+.titulo_tabela {
+    font-weight: bold; 
+}
