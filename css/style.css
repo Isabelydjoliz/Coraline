@@ -43,6 +43,10 @@ header {
     background-color:#593484;
 }
 
+.menuelogo_fixados_contato {
+    width: 100%;
+    background-color: #5a4ec5;
+}
 
 nav {
     text-align: center;
@@ -365,7 +369,7 @@ label {
     margin-top: 2%;
 }
 
-.menuelogo_fixados {
+.menuelogo_fixados, .menuelogo_fixados_contato {
     position: fixed;
     top: 0;
     left: 0;
@@ -396,7 +400,7 @@ label {
         position: absolute;
         right: 3%;
         top: 40%;
-        width: 70%;
+        width: 75%;
 
     }
 
@@ -411,8 +415,9 @@ label {
         padding-top: 15%;
     }
 
-    .logo {
+    .logo-topo {
         padding-top: 1%;
+        width: 20%;
         padding-bottom: 1%;
         text-align: left;
     }
@@ -436,7 +441,7 @@ label {
     }
 
     .container_banner{
-        margin-top: 70%;
+        margin-top: 13%;
     }
 
     .logo-topo {
@@ -444,6 +449,15 @@ label {
         text-align: center;
         width: 30%;
     }
+
+    .producaoimg1 {
+        margin-left: 0%;
+    }
+
+    .producaoimg2 {
+        margin-right: 0%;
+    }
+
     .col-25, .col-75, input[type=submit]{
         width: 100%;
         margin-top: 0;
